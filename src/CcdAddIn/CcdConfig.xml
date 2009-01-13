@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CCDWerteSystemKonfiguration version="1.0">
+	<Konfiguration standardGrad="schwarz" aktiverGrad="Rot" >
+		<Grad farbe="Schwarz" rgb="000000" />
+		<Grad farbe="Rot" rgb="ff0000" />
+	</Konfiguration>
+</CCDWerteSystemKonfiguration>

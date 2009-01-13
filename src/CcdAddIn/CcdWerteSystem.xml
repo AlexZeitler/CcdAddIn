@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CCDWerteSystem version="1.0">
+	<Grad farbe="Schwarz" href="http://clean-code-developer.de/wiki/CcdSchwarzerGrad" />
+	<Grad farbe="Rot" href="http://clean-code-developer.de/wiki/CcdRoterGrad">
+		<Intro></Intro>
+		<Prinzipien>
+			<Prinzip titel="Don't repeat yourself (DRY)" />
+			<Prinzip titel="Keep it simple, stupid (KISS)" />
+		</Prinzipien>
+		<Regeln>
+			<Regel titel="Die Pfadfinderregel beachten" />
+			<Regel titel="Vorsicht vor Optimierungen!" />
+			<Regel titel="Root cause analysis" />
+		</Regeln>
+		<Praktiken>
+			<Praktik titel="Ein Versionskontrollsystem einsetzen" />
+			<Praktik titel="Erste Refaktorisierungsmuster anwenden" />
+			<Praktik titel="Täglich reflektieren" />
+		</Praktiken>
+	</Grad>
+</CCDWerteSystem>
