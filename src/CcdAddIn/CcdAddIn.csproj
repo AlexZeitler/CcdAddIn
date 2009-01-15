@@ -34,6 +34,9 @@
   <ItemGroup>
     <Reference Include="Extensibility, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
     <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
@@ -109,18 +112,22 @@
       <Link>CcdAddIn - For Testing.AddIn</Link>
     </Content>
     <Content Include="CcdAddIn.AddIn" />
-    <Content Include="CcdConfig.xml" />
+    <Content Include="CcdConfig.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="CcdWerteSystem.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="CcdWerteSystem.xslt" />
+    <Content Include="CcdWerteSystem.xslt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
   <PropertyGroup>
     <PreBuildEvent>
     </PreBuildEvent>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PostBuildEvent>COPY "$(TargetDir)CcdWerteSystem.xml" "$(userprofile)\Documents\Visual Studio 2008\Addins\"
+COPY "$(TargetDir)CcdWerteSystem.xslt" "$(UserProfile)\Documents\Visual Studio 2008\Addins\"</PostBuildEvent>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

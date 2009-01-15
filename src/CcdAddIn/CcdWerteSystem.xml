@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="CcdWerteSystem.xslt"?>
 <CCDWerteSystem version="1.0">
 	<Grad farbe="Schwarz" href="http://clean-code-developer.de/wiki/CcdSchwarzerGrad" />
 	<Grad farbe="Rot" href="http://clean-code-developer.de/wiki/CcdRoterGrad">
 		<Intro></Intro>
 		<Prinzipien>
-			<Prinzip titel="Don't repeat yourself (DRY)" />
-			<Prinzip titel="Keep it simple, stupid (KISS)" />
+			<Prinzip titel="Don't repeat yourself (DRY)" href="http://www.clean-code-developer.de/wiki/CcdRoterGrad#DontRepeatYourselfDRY" />
+			<Prinzip titel="Keep it simple, stupid (KISS)" href="#" />
 		</Prinzipien>
 		<Regeln>
 			<Regel titel="Die Pfadfinderregel beachten" />

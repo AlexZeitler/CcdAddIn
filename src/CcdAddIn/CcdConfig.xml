@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <CCDWerteSystemKonfiguration version="1.0">
-	<Konfiguration standardGrad="schwarz" aktiverGrad="Rot" >
+	<Konfiguration standardGrad="Schwarz" aktiverGrad="Schwarz" xmlInput="CcdWerteSystem.xml" xsltInput="CcdWerteSystem.xslt">
 		<Grad farbe="Schwarz" rgb="000000" />
-		<Grad farbe="Rot" rgb="ff0000" />
+		<Grad farbe="Rot" rgb="CC0000" />
+		<Grad farbe="Orange" rgb="FF7400" />
+		<Grad farbe="Gelb" rgb="FFFF88" />
+		<Grad farbe="Grün" rgb="6BBA70" />
+		<Grad farbe="Blau" rgb="356AA0" />
+		<Grad farbe="Weiß" rgb="FFFFFF" />
 	</Konfiguration>
 </CCDWerteSystemKonfiguration>
