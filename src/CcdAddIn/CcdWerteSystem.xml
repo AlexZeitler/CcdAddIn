@@ -6,17 +6,82 @@
 		<Intro></Intro>
 		<Prinzipien>
 			<Prinzip titel="Don't repeat yourself (DRY)" href="http://www.clean-code-developer.de/wiki/CcdRoterGrad#DontRepeatYourselfDRY" />
-			<Prinzip titel="Keep it simple, stupid (KISS)" href="#" />
+			<Prinzip titel="Keep it simple, stupid (KISS)" href="http://clean-code-developer.de/wiki/CcdRoterGrad#KeepitsimplestupidKISS" />
 		</Prinzipien>
 		<Regeln>
-			<Regel titel="Die Pfadfinderregel beachten" />
-			<Regel titel="Vorsicht vor Optimierungen!" />
-			<Regel titel="Root cause analysis" />
+			<Regel titel="Die Pfadfinderregel beachten" href="http://clean-code-developer.de/wiki/CcdRoterGrad#DiePfadfinderregelbeachten" />
+			<Regel titel="Vorsicht vor Optimierungen!" href="http://clean-code-developer.de/wiki/CcdRoterGrad#VorsichtvorOptimierungen" />
+			<Regel titel="Root cause analysis" href="http://clean-code-developer.de/wiki/CcdRoterGrad#Rootcauseanalysis" />
 		</Regeln>
 		<Praktiken>
-			<Praktik titel="Ein Versionskontrollsystem einsetzen" />
-			<Praktik titel="Erste Refaktorisierungsmuster anwenden" />
-			<Praktik titel="Täglich reflektieren" />
+			<Praktik titel="Ein Versionskontrollsystem einsetzen" href="http://clean-code-developer.de/wiki/CcdRoterGrad#EinVersionskontrollsystemeinsetzen" />
+			<Praktik titel="Erste Refaktorisierungsmuster anwenden" href="http://clean-code-developer.de/wiki/CcdRoterGrad#ErsteRefaktorisierungsmusteranwenden" />
+			<Praktik titel="Täglich reflektieren" href="http://clean-code-developer.de/wiki/CcdRoterGrad#T%C3%A4glichreflektieren" />
+		</Praktiken>
+	</Grad>
+	<Grad farbe="Orange" href="http://clean-code-developer.de/wiki/CcdOrangerGrad">
+		<Intro></Intro>
+		<Prinzipien>
+			<Prinzip titel="One level of abstraction" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#Onelevelofabstraction" />
+			<Prinzip titel="Single Responsibility Principle" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#SingleResponsibilityPrinciple" />
+			<Prinzip titel="Separation of Concerns" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#SeparationofConcerns" />
+		</Prinzipien>
+		<Regeln>
+			<Regel titel="Source Code Konventionen" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#SourceCodeKonventionen" />
+		</Regeln>
+		<Praktiken>
+			<Praktik titel="Issue Tracking" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#IssueTracking" />
+			<Praktik titel="Automatisierte Integrationstests" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#AutomatisierteIntegrationstests" />
+			<Praktik titel="Lesen, Lesen, Lesen" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#LesenLesenLesen" />
+			<Praktik titel="Reviews" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#Reviews" />
+		</Praktiken>
+	</Grad>
+	<Grad farbe="Gelb" href="http://clean-code-developer.de/wiki/CcdGelberGrad">
+		<Intro></Intro>
+		<Prinzipien>
+			<Prinzip titel="Interface Segregation Principle" href="http://clean-code-developer.de/wiki/CcdGelberGrad#InterfaceSegregationPrinciple" />
+			<Prinzip titel="Dependency Inversion Principle" href="http://clean-code-developer.de/wiki/CcdGelberGrad#DependencyInversionPrinciple" />
+			<Prinzip titel="Dependency Injection (ohne Locator oder Container)" href="http://clean-code-developer.de/wiki/CcdGelberGrad#DependencyInjectionohneLocatoroderContainer" />
+			<Prinzip titel="Liskov Substitution Principle" href="http://clean-code-developer.de/wiki/CcdGelberGrad#LiskovSubstitutionPrinciple" />
+		</Prinzipien>
+		<Regeln />
+		<Praktiken>
+			<Praktik titel="Automatisierte Unit Tests" href="http://clean-code-developer.de/wiki/CcdGelberGrad#AutomatisierteUnitTests" />
+			<Praktik titel="Mockups (Testattrappen)" href="http://clean-code-developer.de/wiki/CcdGelberGrad#MockupsTestattrappen" />
+			<Praktik titel="Code Coverage Analyse" href="http://clean-code-developer.de/wiki/CcdGelberGrad#CodeCoverageAnalyse" />
+			<Praktik titel="Teilnahme an Fachveranstaltungen" href="http://clean-code-developer.de/wiki/CcdGelberGrad#TeilnahmeanFachveranstaltungen" />
+		</Praktiken>
+	</Grad>
+	<Grad farbe="Grün" href="http://clean-code-developer.de/wiki/CcdGruenerGrad">
+		<Intro></Intro>
+		<Prinzipien>
+			<Prinzip titel="Open Closed Principle" href="http://clean-code-developer.de/wiki/CcdGruenerGrad#OpenClosedPrinciple" />
+			<Prinzip titel="Tell, don´t ask" href="http://clean-code-developer.de/wiki/CcdGruenerGrad#Telldontask" />
+			<Prinzip titel="Law of Demeter" href="http://clean-code-developer.de/wiki/CcdGruenerGrad#LawofDemeter" />
+		</Prinzipien>
+		<Regeln />
+		<Praktiken>
+			<Praktik titel="Continuous Integration I" href="http://clean-code-developer.de/wiki/CcdGruenerGrad#ContinuousIntegrationI" />
+			<Praktik titel="Statische Codeanalyse (Metriken)" href="http://clean-code-developer.de/wiki/CcdGruenerGrad#StatischeCodeanalyseMetriken" />
+			<Praktik titel="Dependency Injection" href="http://clean-code-developer.de/wiki/CcdGruenerGrad#DependencyInjection" />
+			<Praktik titel="Erfahrung weitergeben" href="http://clean-code-developer.de/wiki/CcdGruenerGrad#Erfahrungweitergeben" />
+		</Praktiken>
+	</Grad>
+	<Grad farbe="Blau" href="http://clean-code-developer.de/wiki/CcdBlauerGrad">
+		<Intro></Intro>
+		<Prinzipien>
+			<Prinzip titel="Open Closed Principle" href="http://clean-code-developer.de/wiki/CcdGruenerGrad#OpenClosedPrinciple" />
+			<Prinzip titel="Tell, don´t ask" href="http://clean-code-developer.de/wiki/CcdGruenerGrad#Telldontask" />
+			<Prinzip titel="Principle of least astonishment" href="http://clean-code-developer.de/wiki/CcdBlauerGrad#Principleofleastastonishment" />
+		</Prinzipien>
+		<Regeln>
+			<Regel titel="You Ain´t Gonna Need It (YAGNI)" href="http://clean-code-developer.de/wiki/CcdBlauerGrad#YouAintGonnaNeedItYAGNI" />
+		</Regeln>
+		<Praktiken>
+			<Praktik titel="Continuous Integration II" href="http://clean-code-developer.de/wiki/CcdBlauerGrad#ContinuousIntegrationII" />
+			<Praktik titel="Iterative Entwicklung" href="http://clean-code-developer.de/wiki/CcdBlauerGrad#IterativeEntwicklung" />
+			<Praktik titel="Komponentenorientierung" href="http://clean-code-developer.de/wiki/CcdBlauerGrad#Komponentenorientierung" />
+			<Praktik titel="Test first" href="http://clean-code-developer.de/wiki/CcdBlauerGrad#Testfirst" />
 		</Praktiken>
 	</Grad>
 </CCDWerteSystem>
