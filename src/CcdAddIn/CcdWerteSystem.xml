@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <?xml-stylesheet type="text/xsl" href="CcdWerteSystem.xslt"?>
 <CCDWerteSystem version="1.0">
-	<Grad farbe="Schwarz" href="http://clean-code-developer.de/wiki/CcdSchwarzerGrad" />
-	<Grad farbe="Rot" href="http://clean-code-developer.de/wiki/CcdRoterGrad">
+	<Grad farbe="Schwarz" href="http://clean-code-developer.de/wiki/CcdSchwarzerGrad" RGB="000000" ARGB="FF000000"/>
+	<Grad farbe="Rot" href="http://clean-code-developer.de/wiki/CcdRoterGrad" RGB="CC0000" ARGB="FFCC0000">
 		<Intro></Intro>
 		<Prinzipien>
 			<Prinzip titel="Don't repeat yourself (DRY)" href="http://www.clean-code-developer.de/wiki/CcdRoterGrad#DontRepeatYourselfDRY" />
@@ -16,10 +16,10 @@
 		<Praktiken>
 			<Praktik titel="Ein Versionskontrollsystem einsetzen" href="http://clean-code-developer.de/wiki/CcdRoterGrad#EinVersionskontrollsystemeinsetzen" />
 			<Praktik titel="Erste Refaktorisierungsmuster anwenden" href="http://clean-code-developer.de/wiki/CcdRoterGrad#ErsteRefaktorisierungsmusteranwenden" />
-			<Praktik titel="Täglich reflektieren" href="http://clean-code-developer.de/wiki/CcdRoterGrad#T%C3%A4glichreflektieren" />
+			<Praktik titel="Täglich reflektieren" href="http://clean-code-developer.de/wiki/CcdRoterGrad#Täglichreflektieren" />
 		</Praktiken>
 	</Grad>
-	<Grad farbe="Orange" href="http://clean-code-developer.de/wiki/CcdOrangerGrad">
+	<Grad farbe="Orange" href="http://clean-code-developer.de/wiki/CcdOrangerGrad" RGB="FF7400" ARGB="FFFF7400">
 		<Intro></Intro>
 		<Prinzipien>
 			<Prinzip titel="One level of abstraction" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#Onelevelofabstraction" />
@@ -36,7 +36,7 @@
 			<Praktik titel="Reviews" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#Reviews" />
 		</Praktiken>
 	</Grad>
-	<Grad farbe="Gelb" href="http://clean-code-developer.de/wiki/CcdGelberGrad">
+	<Grad farbe="Gelb" href="http://clean-code-developer.de/wiki/CcdGelberGrad" RGB="FFFF88" ARG="FFFFFF88">
 		<Intro></Intro>
 		<Prinzipien>
 			<Prinzip titel="Interface Segregation Principle" href="http://clean-code-developer.de/wiki/CcdGelberGrad#InterfaceSegregationPrinciple" />
@@ -52,7 +52,7 @@
 			<Praktik titel="Teilnahme an Fachveranstaltungen" href="http://clean-code-developer.de/wiki/CcdGelberGrad#TeilnahmeanFachveranstaltungen" />
 		</Praktiken>
 	</Grad>
-	<Grad farbe="Grün" href="http://clean-code-developer.de/wiki/CcdGruenerGrad">
+	<Grad farbe="Grün" href="http://clean-code-developer.de/wiki/CcdGruenerGrad" RGB="6BBA70" ARGB="FF6BBA70">
 		<Intro></Intro>
 		<Prinzipien>
 			<Prinzip titel="Open Closed Principle" href="http://clean-code-developer.de/wiki/CcdGruenerGrad#OpenClosedPrinciple" />
@@ -67,7 +67,7 @@
 			<Praktik titel="Erfahrung weitergeben" href="http://clean-code-developer.de/wiki/CcdGruenerGrad#Erfahrungweitergeben" />
 		</Praktiken>
 	</Grad>
-	<Grad farbe="Blau" href="http://clean-code-developer.de/wiki/CcdBlauerGrad">
+	<Grad farbe="Blau" href="http://clean-code-developer.de/wiki/CcdBlauerGrad" RGB="356AA0" ARGB="356AA0">
 		<Intro></Intro>
 		<Prinzipien>
 			<Prinzip titel="Open Closed Principle" href="http://clean-code-developer.de/wiki/CcdGruenerGrad#OpenClosedPrinciple" />

@@ -111,7 +111,9 @@
     <Content Include="$(UserProfile)\Documents\Visual Studio 2008\Addins\CcdAddIn - For Testing.AddIn">
       <Link>CcdAddIn - For Testing.AddIn</Link>
     </Content>
-    <Content Include="CcdAddIn.AddIn" />
+    <Content Include="CcdAddIn.AddIn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="CcdConfig.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

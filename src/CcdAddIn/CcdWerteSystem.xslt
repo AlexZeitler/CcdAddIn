@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
 
 	<xsl:output method="text" indent="yes" />
-	<xsl:param name="Grad"></xsl:param>
+	<xsl:param name="AktuellerGrad"></xsl:param>
 	<xsl:param name="RGB"></xsl:param>
 	<xsl:template match="/">
 
@@ -31,7 +31,7 @@
 
 
 			<body>
-				<xsl:for-each select="CCDWerteSystem/Grad[@farbe=$Grad]">
+				<xsl:for-each select="CCDWerteSystem/Grad[@farbe=$AktuellerGrad]">
 
 					<h1>
 						Aktueller Grad: <xsl:value-of select="@farbe"/>

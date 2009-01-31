@@ -32,7 +32,6 @@
             this.gradeBrowser.Location = new System.Drawing.Point(0, 0);
             this.gradeBrowser.MinimumSize = new System.Drawing.Size(20, 20);
             this.gradeBrowser.Name = "gradeBrowser";
-            this.gradeBrowser.ScrollBarsEnabled = false;
             this.gradeBrowser.Size = new System.Drawing.Size(305, 316);
             this.gradeBrowser.TabIndex = 5;
             this.gradeBrowser.Url = new System.Uri("", System.UriKind.Relative);

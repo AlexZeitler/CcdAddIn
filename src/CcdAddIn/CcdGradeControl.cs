@@ -61,11 +61,15 @@ namespace CcdAddIn {
             string localXmlInputPath = string.Format(XMLINPUTPATH, localAddInPath, xmlInputPath);
             string localXsltInputPath = string.Format(XSLTINPUTPATH, localAddInPath, xsltInputPath);
 
-            var mappings = from d in config.Descendants("Grad") select d;
-            foreach (XElement el in mappings) {
-                gradeMappings.Add(el.Attribute("farbe").Value, new[] { el.Attribute("rgb").Value });
-            }
+            XDocument xmlInput = XDocument.Load(localXmlInputPath);
+            var grades = from g in xmlInput.Descendants("Grad") 
+                         where (string)g.Attribute("farbe").Value == currentGrade 
+                         select g;
 
+            string rgb = string.Empty;
+            if(grades.Count() == 1) {
+                rgb = grades.First().Attribute("RGB").Value;
+            }
 
             try {
                 XsltArgumentList xslArg = new XsltArgumentList();
@@ -75,8 +79,8 @@ namespace CcdAddIn {
                 XmlTextWriter writer = new XmlTextWriter(localOutputHtmlFilePath, Encoding.UTF8);
 
                 XsltArgumentList xsltArgumentList = new XsltArgumentList();
-                xsltArgumentList.AddParam("Grad", string.Empty, currentGrade);
-                xsltArgumentList.AddParam("RGB", string.Empty, gradeMappings[currentGrade][0]);
+                xsltArgumentList.AddParam("AktuellerGrad", string.Empty, currentGrade);
+                xsltArgumentList.AddParam("RGB", string.Empty, rgb);
 
                 //xslt.Transform(xpathdocument, xslArg, writer);
                 xslt.Transform(xpathdocument, xsltArgumentList, writer);
