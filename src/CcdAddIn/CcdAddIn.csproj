@@ -49,6 +49,8 @@
     <Compile Include="AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CcdAddInDebug.cs" />
+    <Compile Include="CcdAddInUtil.cs" />
     <Compile Include="CcdGradeControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
