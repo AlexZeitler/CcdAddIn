@@ -131,8 +131,9 @@
   <PropertyGroup>
     <PreBuildEvent>
     </PreBuildEvent>
-    <PostBuildEvent>COPY "$(TargetDir)CcdWerteSystem.xml" "$(userprofile)\Documents\Visual Studio 2008\Addins\"
-COPY "$(TargetDir)CcdWerteSystem.xslt" "$(UserProfile)\Documents\Visual Studio 2008\Addins\"</PostBuildEvent>
+    <PostBuildEvent>@SET MyAddIdPath=D:\MyStuff\VS2008\Addins\
+@COPY "$(TargetDir)CcdWerteSystem.xml" "%25MyAddIdPath%25"
+@COPY "$(TargetDir)CcdWerteSystem.xslt" "%25MyAddIdPath%25"</PostBuildEvent>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
