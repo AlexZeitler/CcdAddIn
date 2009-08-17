@@ -63,20 +63,17 @@
 		<Praktiken>
 			<Praktik titel="Continuous Integration I" href="http://clean-code-developer.de/wiki/CcdGruenerGrad#ContinuousIntegrationI" />
 			<Praktik titel="Statische Codeanalyse (Metriken)" href="http://clean-code-developer.de/wiki/CcdGruenerGrad#StatischeCodeanalyseMetriken" />
-			<Praktik titel="Dependency Injection" href="http://clean-code-developer.de/wiki/CcdGruenerGrad#DependencyInjection" />
-			<Praktik titel="Erfahrung weitergeben" href="http://clean-code-developer.de/wiki/CcdGruenerGrad#Erfahrungweitergeben" />
+            <Praktik titel="Inversion of Control Container" href="http://clean-code-developer.de/wiki/CcdGruenerGrad#InversionofControlContainer" />
+            <Praktik titel="Erfahrung weitergeben" href="http://clean-code-developer.de/wiki/CcdGruenerGrad#Erfahrungweitergeben" />
 		</Praktiken>
 	</Grad>
 	<Grad farbe="Blau" href="http://clean-code-developer.de/wiki/CcdBlauerGrad" RGB="356AA0" ARGB="356AA0">
 		<Intro></Intro>
 		<Prinzipien>
-			<Prinzip titel="Open Closed Principle" href="http://clean-code-developer.de/wiki/CcdGruenerGrad#OpenClosedPrinciple" />
-			<Prinzip titel="Tell, don´t ask" href="http://clean-code-developer.de/wiki/CcdGruenerGrad#Telldontask" />
-			<Prinzip titel="Principle of least astonishment" href="http://clean-code-developer.de/wiki/CcdBlauerGrad#Principleofleastastonishment" />
-		</Prinzipien>
-		<Regeln>
-			<Regel titel="You Ain´t Gonna Need It (YAGNI)" href="http://clean-code-developer.de/wiki/CcdBlauerGrad#YouAintGonnaNeedItYAGNI" />
-		</Regeln>
+            <Prinzip titel="Entwurf und Implementation überlappen nicht" href="http://clean-code-developer.de/wiki/CcdBlauerGrad#EntwurfundImplementationüberlappennicht" />
+            <Prinzip titel="Implementation spiegelt Entwurf" href="http://clean-code-developer.de/wiki/CcdBlauerGrad#ImplementationspiegeltEntwurf" />
+            <Prinzip titel="You Ain´t Gonna Need It (YAGNI)" href="http://clean-code-developer.de/wiki/CcdBlauerGrad#YouAintGonnaNeedItYAGNI" />
+        </Prinzipien>
 		<Praktiken>
 			<Praktik titel="Continuous Integration II" href="http://clean-code-developer.de/wiki/CcdBlauerGrad#ContinuousIntegrationII" />
 			<Praktik titel="Iterative Entwicklung" href="http://clean-code-developer.de/wiki/CcdBlauerGrad#IterativeEntwicklung" />
