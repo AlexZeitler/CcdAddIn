@@ -1,0 +1,63 @@
+Diese Datei beinhaltet Informationen zur Installation und Konfiguration zum CcdAddIn r9.
+
+(c) 2009 Alexander Zeitler (alex at alexonasp.net)
+
+Probleme können hier gemeldet werden (vorher bitte "Bekannte Probleme" in dieser Datei lesen):
+http://code.google.com/p/ccdaddin/issues/list
+
+Anregungen sollten hier gepostet werden, um eine offene Diskussion zu ermöglichen:
+http://groups.google.de/group/clean-code-developer
+
+Neue Versionen des CcdAddins werden ausschließlich hier veröffentlicht:
+http://code.google.com/p/ccdaddin/downloads/list
+
+Aktuelles zum CcdAddIn gibt es auch via Twitter:
+http://twitter.com/CcdAddIn
+
+Außerdem können die News zu CcdAddIn auch via Atom-Feed abonniert werden:
+http://code.google.com/p/ccdaddin/feeds
+
+Installation des CcdAddins
+
+Windows Vista / Windows Server 2008:
+
+Den Inhalt von CcdAddIn_r9.zip nach 
+
+%UserProfile%\Documents\Visual Studio 2008\Addins\
+
+kopieren.
+
+Windows XP / Windows Server 2003:
+
+Den Inhalt von CcdAddIn_r9.zip nach
+%UserProfile%\My Documents\Visual Studio 2008\Addins\
+
+kopieren.
+
+Visual Studio 2008 starten.
+Im Visual Studio 2008 Menü Tools / Add-in Manager auswählen und dort das CcdAddIn anhaken.
+
+Ändern des aktuellen Grades:
+
+CcdConfig.xml in 
+%UserProfile%\Documents\Visual Studio 2008\Addins\ 
+
+bzw. 
+
+%UserProfile%\My Documents\Visual Studio 2008\Addins\
+
+bearbeiten.
+
+Das Attribut "aktiverGrad" im Node "Konfiguration" entsprechend ändern.
+Der Wert für "aktivierGrad" ist dem Attribut "farbe" im entsprechenden Node "Grad"
+zu entnehmen.
+
+Über das Attribut "rgb" kann die Grad-Farbe den eigenen Wünschen angepasst werden.
+
+Bekannte Probleme:
+
+Das CcdAddIn r9 wurde im bewußt im schwarzen Grad entwickelt, um mit dem AddIn ein Beispiel für die Veränderung von Software mit fortschreitenden Graden zu schaffen.
+
+Änderungen in CcdAddIn r9:
+http://code.google.com/p/ccdaddin/source/detail?r=9
+
