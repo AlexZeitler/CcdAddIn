@@ -1,19 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <?xml-stylesheet type="text/xsl" href="CcdWerteSystem.xslt"?>
 <CCDWerteSystem version="1.0">
+<!--
+	$Id::  $
+	
+	created : 2009/01/13
+	creator : alexander.zeitler
+	
+	excerpt : CcdAddIn database
+	
+	history :
+	2009/11/20 slove@matas.de reflected changes according to http://www.clean-code-developer.net/wiki/CcdWertesystem?action=diff&version=27
+	2009/11/20 slove@matas.de added svn:keywords Id and this "docu~node"
+
+-->
 	<Grad farbe="Schwarz" href="http://clean-code-developer.de/wiki/CcdSchwarzerGrad" RGB="000000" ARGB="FF000000"/>
 	<Grad farbe="Rot" href="http://clean-code-developer.de/wiki/CcdRoterGrad" RGB="CC0000" ARGB="FFCC0000">
 		<Intro></Intro>
 		<Prinzipien>
-			<Prinzip titel="Don't repeat yourself (DRY)" href="http://www.clean-code-developer.de/wiki/CcdRoterGrad#DontRepeatYourselfDRY" />
-			<Prinzip titel="Keep it simple, stupid (KISS)" href="http://clean-code-developer.de/wiki/CcdRoterGrad#KeepitsimplestupidKISS" />
-			<Prinzip titel="Vorsicht vor Optimierungen!" href="http://clean-code-developer.de/wiki/CcdRoterGrad#VorsichtvorOptimierungen" />
-			<Prinzip titel="Favour composition over inheritance (FCoI)" href="http://clean-code-developer.de/wiki/CcdRoterGrad#FavourCompositionoverInheritanceFCoI" />
+			<Prinzip titel="Don't Repeat Yourself (DRY)" href="http://www.clean-code-developer.de/wiki/CcdRoterGrad#DontRepeatYourselfDRY" />
+			<Prinzip titel="Keep It Simple, Stupid (KISS)" href="http://clean-code-developer.de/wiki/CcdRoterGrad#KeepitsimplestupidKISS" />
+			<Prinzip titel="Vorsicht vor Optimierung" href="http://clean-code-developer.de/wiki/CcdRoterGrad#VorsichtvorOptimierungen" />
+			<Prinzip titel="Favour Composition over Inheritance (FCoI, OOP)" href="http://clean-code-developer.de/wiki/CcdRoterGrad#FavourCompositionoverInheritanceFCoI" />
 		</Prinzipien>
 		<Regeln />
 		<Praktiken>
 			<Praktik titel="Die Pfadfinderregel beachten" href="http://clean-code-developer.de/wiki/CcdRoterGrad#DiePfadfinderregelbeachten" />
-			<Praktik titel="Root cause analysis" href="http://clean-code-developer.de/wiki/CcdRoterGrad#Rootcauseanalysis" />
+			<Praktik titel="Root Cause Analysis" href="http://clean-code-developer.de/wiki/CcdRoterGrad#Rootcauseanalysis" />
 			<Praktik titel="Ein Versionskontrollsystem einsetzen" href="http://clean-code-developer.de/wiki/CcdRoterGrad#EinVersionskontrollsystemeinsetzen" />
 			<Praktik titel="Erste Refaktorisierungsmuster anwenden" href="http://clean-code-developer.de/wiki/CcdRoterGrad#ErsteRefaktorisierungsmusteranwenden" />
 			<Praktik titel="Täglich reflektieren" href="http://clean-code-developer.de/wiki/CcdRoterGrad#Täglichreflektieren" />
@@ -22,17 +35,17 @@
 	<Grad farbe="Orange" href="http://clean-code-developer.de/wiki/CcdOrangerGrad" RGB="FF7400" ARGB="FFFF7400">
 		<Intro></Intro>
 		<Prinzipien>
-			<Prinzip titel="One level of abstraction" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#Onelevelofabstraction" />
+			<Prinzip titel="Single Level of Abstraction" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#Onelevelofabstraction" />
 			<Prinzip titel="Single Responsibility Principle" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#SingleResponsibilityPrinciple" />
 			<Prinzip titel="Separation of Concerns" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#SeparationofConcerns" />
-			<Prinzip titel="Source Code Konventionen" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#SourceCodeKonventionen" />
+			<Prinzip titel="Sourcecode-Konventionen" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#SourceCodeKonventionen" />
 		</Prinzipien>
 		<Regeln />
 		<Praktiken>
 			<Praktik titel="Issue Tracking" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#IssueTracking" />
 			<Praktik titel="Automatisierte Integrationstests" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#AutomatisierteIntegrationstests" />
 			<Praktik titel="Lesen, Lesen, Lesen" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#LesenLesenLesen" />
-			<Praktik titel="Reviews" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#Reviews" />
+			<Praktik titel="Code Reviews" href="http://clean-code-developer.de/wiki/CcdOrangerGrad#Reviews" />
 		</Praktiken>
 	</Grad>
 	<Grad farbe="Gelb" href="http://clean-code-developer.de/wiki/CcdGelberGrad" RGB="FFFF88" ARG="FFFFFF88">
@@ -41,12 +54,12 @@
 			<Prinzip titel="Interface Segregation Principle" href="http://clean-code-developer.de/wiki/CcdGelberGrad#InterfaceSegregationPrinciple" />
 			<Prinzip titel="Dependency Inversion Principle" href="http://clean-code-developer.de/wiki/CcdGelberGrad#DependencyInversionPrinciple" />
 			<Prinzip titel="Liskov Substitution Principle" href="http://clean-code-developer.de/wiki/CcdGelberGrad#LiskovSubstitutionPrinciple" />
-			<Prinzip titel="Principle of least astonishment" href="http://clean-code-developer.de/wiki/CcdGelberGrad#Principleofleastastonishment" />
-			<Prinzip titel="Information hiding principle" href="http://clean-code-developer.de/wiki/CcdGelberGrad#Informationhidingprinciple" />
+			<Prinzip titel="Principle of Least Astonishment" href="http://clean-code-developer.de/wiki/CcdGelberGrad#Principleofleastastonishment" />
+			<Prinzip titel="Information Hiding Principle (IHP)" href="http://clean-code-developer.de/wiki/CcdGelberGrad#Informationhidingprinciple" />
 		</Prinzipien>
 		<Regeln />
 		<Praktiken>
-			<Praktik titel="Komplexe Refactorings" href="http://clean-code-developer.de/wiki/CcdGelberGrad#KomplexeRefactorings" />
+			<Praktik titel="Komplexe Refaktorisierungen" href="http://clean-code-developer.de/wiki/CcdGelberGrad#KomplexeRefactorings" />
 			<Praktik titel="Automatisierte Unit Tests" href="http://clean-code-developer.de/wiki/CcdGelberGrad#AutomatisierteUnitTests" />
 			<Praktik titel="Mockups (Testattrappen)" href="http://clean-code-developer.de/wiki/CcdGelberGrad#MockupsTestattrappen" />
 			<Praktik titel="Code Coverage Analyse" href="http://clean-code-developer.de/wiki/CcdGelberGrad#CodeCoverageAnalyse" />
